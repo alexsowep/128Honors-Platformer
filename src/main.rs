@@ -36,6 +36,7 @@ fn main() {
         .register_ldtk_int_cell::<components::WallBundle>(1)
         .register_ldtk_int_cell::<components::WallBundle>(3)
         .register_ldtk_entity::<components::PlayerBundle>("Player")
+        .register_ldtk_entity::<components::MobBundle>("Mob")
         .run();
 }
 

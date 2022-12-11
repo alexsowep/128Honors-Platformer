@@ -132,7 +132,7 @@ pub struct GroundDetection {
 }
 #[derive(Clone, Default, Bundle, LdtkEntity)]
 pub struct MobBundle {
-    #[sprite_bundle("villain.png")]
+    #[sprite_bundle("EnemyBlue.png")]
     #[bundle]
     pub sprite_bundle: SpriteBundle,
     #[from_entity_instance]
